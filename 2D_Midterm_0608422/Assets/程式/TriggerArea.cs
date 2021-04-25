@@ -11,8 +11,9 @@ public class TriggerArea : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "木頭")
+        if (collision.tag == "斧頭")
             stones[0].SetActive(false);
         stones[1].SetActive(false);
+        
     }
 }
